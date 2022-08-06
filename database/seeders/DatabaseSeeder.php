@@ -42,5 +42,7 @@ class DatabaseSeeder extends Seeder
             'description'=>'We’ve helped over 200 businesses around the world to build their Fastest Web solutions and Providing support to 20+ USA and European'
         ]);
 
+        Listing::factory(8)->create();
+
     }
 }
